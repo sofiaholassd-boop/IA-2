@@ -16,7 +16,7 @@ print(f"El valor de intensidad en gris para amarillo puro es: {gris_calculado:.2
 
 # 4. Verificación con una imagen real descargada usando OpenCV
 # Cargar imagen real (reemplazar 'imagen.jpg' por tu archivo)
-imagen = cv2.imread('imagen.jpg')
+imagen = cv2.imread('/workspaces/IA-2/imagen de prueba /image.png')
 
 if imagen is not None:
     # Conversión mediante función optimizada de OpenCV
