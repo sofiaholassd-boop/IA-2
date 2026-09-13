@@ -59,5 +59,5 @@ else:
     # 5. Guardar la imagen procesada
     
     # 5. Guardar la imagen procesada
-    cv2.imwrite('/workspaces/IA-2/imagen taller 6/image.png', resultado)
-    print("Procesamiento finalizado. Resultado guardado en '/workspaces/IA-2/imagen taller 6/image.png'.")
+cv2.imwrite('/workspaces/IA---2/taller6_clasificacion.png', resultado)
+print("Procesamiento finalizado. Resultado guardado en '/workspaces/IA---2/taller6_clasificacion.png'.")
