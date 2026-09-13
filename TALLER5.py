@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # 1. Cargar la imagen en escala de grises
-ruta_imagen = '/workspaces/IA---2/imagen2/image copy.png'
+ruta_imagen = '/workspaces/IA-2/imagen taller 5/image.png'
 imagen = cv2.imread(ruta_imagen, cv2.IMREAD_GRAYSCALE)
 
 if imagen is None:
@@ -22,11 +22,12 @@ else:
     canny_estricto = cv2.Canny(imagen, 200, 250) # Umbral alto (solo conserva bordes muy fuertes)
 
     # 4. Guardar imágenes en archivos para visualización en GitHub Codespaces
-    cv2.imwrite('/workspaces/IA---2/taller5_sobel_x.png', sobel_x_abs)
-    cv2.imwrite('/workspaces/IA---2/taller5_sobel_y.png', sobel_y_abs)
-    cv2.imwrite('/workspaces/IA---2/taller5_canny_optimo.png', canny_optimo)
-    cv2.imwrite('/workspaces/IA---2/taller5_canny_sensible.png', canny_sensible)
-    cv2.imwrite('/workspaces/IA---2/taller5_canny_estricto.png', canny_estricto)
+    # 4. Guardar imágenes en archivos para visualización en GitHub Codespaces
+    cv2.imwrite('/workspaces/IA-2/taller5_sobel_x.png', sobel_x_abs)
+    cv2.imwrite('/workspaces/IA-2/taller5_sobel_y.png', sobel_y_abs)
+    cv2.imwrite('/workspaces/IA-2/taller5_canny_optimo.png', canny_optimo)
+    cv2.imwrite('/workspaces/IA-2/taller5_canny_sensible.png', canny_sensible)
+    cv2.imwrite('/workspaces/IA-2/taller5_canny_estricto.png', canny_estricto)
 
     print("¡Procesamiento exitoso del Taller 5!")
     print("Archivos generados:")
