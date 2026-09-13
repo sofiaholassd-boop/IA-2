@@ -27,10 +27,11 @@ else:
     blur_mediana = cv2.medianBlur(ruidosa, ksize)
 
     # 3. Guardar las imágenes procesadas en la carpeta del proyecto
-    cv2.imwrite('/workspaces/IA---2/taller4_1_ruidosa.png', ruidosa)
-    cv2.imwrite('/workspaces/IA---2/taller4_2_media.png', blur_media)
-    cv2.imwrite('/workspaces/IA---2/taller4_3_gaussiano.png', blur_gauss)
-    cv2.imwrite('/workspaces/IA---2/taller4_4_mediana.png', blur_mediana)
+    # 3. Guardar las imágenes procesadas en la carpeta del proyecto
+    cv2.imwrite('/workspaces/IA-2/taller4_1_ruidosa.png', ruidosa)
+    cv2.imwrite('/workspaces/IA-2/taller4_2_media.png', blur_media)
+    cv2.imwrite('/workspaces/IA-2/taller4_3_gaussiano.png', blur_gauss)
+    cv2.imwrite('/workspaces/IA-2/taller4_4_mediana.png', blur_mediana)
 
     print("¡Procesamiento exitoso del Taller 4!")
     print("Se han generado las imágenes:")
